@@ -1,1 +1,1 @@
-# crud-app
+# crud-app (frontend layer)
