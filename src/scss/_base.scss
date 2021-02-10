@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.page-content {
+    max-width: 1200px;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0px auto;
+    padding: 111px 0px 120px 0px;
+    background-color: #f2f2f2;
+}

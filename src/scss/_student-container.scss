@@ -1,0 +1,168 @@
+.student-container {
+    margin: 0px auto;
+    background-color: #ffffff;
+    max-width: 80%;
+
+    .student-list {
+        .single-student {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 16px 10px 15px 10px;
+        
+            &--header {
+                border-bottom: 2px solid #f2f2f2;
+                padding: 26px 10px 25px 10px;
+                margin: 0px 0px 10px 0px;
+            }
+        
+            &__id, 
+            &__first-name,
+            &__last-name,
+            &__phone-number,
+            &__actions,
+            &__address {
+                text-align: center;
+                font-size: 18px;
+                font-weight: 400;
+                padding: 0px 10px;
+                width: 15%;
+            }
+        
+            &__id {
+                width: 10%;
+            }
+
+            &__address {
+                width: 30%;
+            }
+
+            &__actions {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                &--edit,
+                &--delete {
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    text-decoration: none;
+                    border: none;
+                    background: none;
+                    cursor: pointer;
+                    padding: 0px;
+
+                    &:hover {
+                        color: #808080;
+                    }
+                }
+
+                &--edit {
+                    color: #3573a9;
+                }
+
+                &--delete {
+                    color: #c53436;
+                }
+            }
+        }
+
+        .student-actions {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border-top: 2px solid #f2f2f2;
+            padding: 15px 10px;
+            margin: 10px 0px 0px 0px;
+
+            &__id, 
+            &__first-name,
+            &__last-name,
+            &__phone-number,
+            &__actions,
+            &__address {
+                padding: 15px 10px;
+            }
+
+            &__id {
+                width: 10%;
+            }
+        
+            &__first-name,
+            &__last-name,
+            &__phone-number,
+            &__buttons {
+                width: 15%;
+            }
+
+            &__address {
+                width: 30%;
+            }
+
+            &__buttons {
+                text-align: center;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 0px 10px;
+
+                &--add,
+                &--edit {
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    text-decoration: none;
+                    width: 100%;
+                    padding: 8px 0px 7px 0px;
+                    color: #ffffff;
+                    border: none;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #808080;
+                    }
+                }
+
+                &--add {
+                    background-color: #4a9e49;
+                }
+
+                &--edit {
+                    background-color: #3573a9;
+                }
+
+                .disabled {
+                    display: none;
+                }
+            }
+
+            input {
+                width: 100%;
+                font-size: 18px;
+                padding: 5px;
+                text-align: center;
+                border: 1px solid #000000;
+
+                &:disabled {
+                    border: 1px solid #f2f2f2;
+                    background-color: #f2f2f2;
+
+                    &:hover {
+                        
+                    border-color: #f2f2f2;
+                    }
+                }
+
+                &:hover {
+                    border-color: #808080;
+                }
+
+                &:focus {
+                    border: 1px solid #808080;
+                    outline: none;
+                }
+            }
+        }
+    }
+}

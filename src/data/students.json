@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Jan",
+        "lastName": "Kowalski",
+        "adress": "ul. Ładna 3/7",
+        "phoneNumber": 600500300
+    },
+    {
+        "id": 2,
+        "name": "Andrzej",
+        "lastName": "Nowak",
+        "adress": "ul. Pogodna 1",
+        "phoneNumber": 528645789
+    },
+    {
+        "id": 3,
+        "name": "Anna",
+        "lastName": "Koczorowska",
+        "adress": "ul. Bogumiła Morskiego 6",
+        "phoneNumber": 601147895
+    },
+    {
+        "id": 4,
+        "name": "Witold",
+        "lastName": "Kruk",
+        "adress": "os. Zachodnie 124B/13",
+        "phoneNumber": 866985223
+    }
+]
